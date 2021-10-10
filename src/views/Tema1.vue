@@ -231,15 +231,179 @@
       br
       br
       |Esto dependerá siempre del tipo de red social utilizada, por ejemplo:
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.tf__1(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/29.jpg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5
+              img(src='@/assets/curso/29.svg', alt='Texto que describa la imagen' style='width: 77px').mb-3
+              p.text-white Si se desea utilizar Facebook, la idea principal de esta red social es poder interactuar con personas conocidas.
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.tf__2(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/30.jpg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5
+              img(src='@/assets/curso/33.svg', alt='Texto que describa la imagen' style='width: 77px').mb-3
+              p.text-white Si la red social a utilizarse es Twitter, su objetivo se centra en poder dar a conocer opiniones a cualquier persona en general y poder conocer nuevos amigos.
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.tf__3(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/31.jpg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5
+              img(src='@/assets/curso/34.svg', alt='Texto que describa la imagen' style='width: 77px').mb-3
+              p.text-white LinkedIn, por su parte, es una red pensada para poder agregar contactos de profesionales o compañeros de trabajo con los cuales comparten su campo profesional.
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.tf__4(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/32.jpg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5
+              img(src='@/assets/curso/35.svg', alt='Texto que describa la imagen' style='width: 77px').mb-3
+              p.text-white Instagram es una plataforma diseñada para compartir fotos y videos.
+    p.mb-5 Por lo que se debe analizar muy bien cuál o cuáles serán las redes a utilizar y el propósito de su utilización, para determinar si contar o no con perfiles públicos o privados. Cada red social ha logrado hacer su propia identidad e identificar a sus usuarios de gran forma.
+      br
+      br
+      |Ya se debe tener una palabra clave como mínimo para el premio, ahora continúe en su rol de investigador:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+    #t_1_4.titulo-segundo(data-aos='fade-right')
+      h2 1.4 Configuración y seguridad de redes sociales 
+    p.mb-5  Antes de hablar de perfiles públicos y privados, se debe entender qué es un “perfil” en el contexto digital.
+    .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
+        .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
+        .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 292px')
+        .row.justify-content-start
+          .col-lg-7
+            .texto-adorno.texto-adorno
+              p.h1.fw-normal 
+                b Tener los perfiles públicos con los datos personales abiertos al mundo podría generar problemas dependiendo de lo que se publique, 
+                | por ejemplo un hacker o delincuente informático puede utilizar las fotos, videos y publicaciones para suplantar una identidad, ya sea en la misma red social o en cualquier otra red, y a partir de la creación de estos perfiles falsos buscar contactar a familiares y amigos y tratar de estafarlos; además, puede ser utilizada la información para tratar de causar daño, adivinar contraseñas o para afectar la imagen profesional tomando como argumentos las ideas, opiniones o fotos controversiales publicadas en los perfiles.
+    p.mb-5 El riesgo está en que las fotos, videos y publicaciones en general puedan ser utilizados por cualquier persona en cualquier parte del mundo sin que el propietario se dé cuenta, otra consideración importante es tener mucho cuidado con lo que se publica, debido a que algunas de las publicaciones podrían considerarse inapropiadas y pueden ser utilizadas para afectar la imagen del dueño de la cuenta.
+      br
+      br
+      |A continuación, se mencionan algunos de los consejos que se deben utilizar en la configuración de la privacidad y seguridad en las redes sociales, a saber:
+    AcordeonD.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--verde-claro")
+      .row(titulo="Configurar el perfil social").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Se debe publicar en el perfil únicamente lo estrictamente necesario, no incluir información personal o sensible como ubicación, gustos, estudios, etc.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/37.svg', alt='Texto que describa la imagen')
+      .row(titulo="Analizar muy bien lo que se publica").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Se trata de ser cautelosos y no ser eufóricos al momento de publicar, pensando si a futuro este contenido podría llegar a afectar o perjudicar al titular de la cuenta.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/38.svg', alt='Texto que describa la imagen')
+      .row(titulo="Verificar la vista de nuestro perfil").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Es recomendable desde otras cuentas validar cómo se ve y qué se muestra en el perfil, haciendo pruebas de configuración y acceso a la cuenta.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/39.svg', alt='Texto que describa la imagen')
+      .row(titulo="Ajustar parámetros de seguridad").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Se deben leer muy bien las políticas de privacidad y seguridad que proporciona cada red social y ajustar los parámetros frente a qué se quiere mostrar y quiénes pueden ver lo que se publica.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/40.svg', alt='Texto que describa la imagen')
+      .row(titulo="Seleccionar el entorno social").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Ser prudentes y tener mucha cautela frente a quienes se aceptan como contactos o seguidores de una cuenta. 
+        .col-md-2
+          figure
+            img(src='@/assets/curso/41.svg', alt='Texto que describa la imagen')
+      .row(titulo="Contraseñas seguras").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Se deben crear las contraseñas de acceso a las redes sociales siguiendo todas las recomendaciones como la utilización de un número no menor de 8 caracteres como resultado de hacer combinaciones entre números, letras minúsculas y mayúsculas, caracteres especiales.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/42.svg', alt='Texto que describa la imagen')
+      .row(titulo="Limitar permisos a las aplicaciones").px-5
+        .col-md-10.mb-4.mb-md-0
+          p En el proceso de instalación de las aplicaciones, sobre todo en los dispositivos móviles, poner especial atención al tipo de acceso que se le dan a nuestros teléfonos, muchas de estas piden acceso a los contactos, cámaras y localización lo que resulta es una amenaza muy alta a la privacidad.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/43.svg', alt='Texto que describa la imagen')
+      .row(titulo="Proteger la identidad digital").px-5
+        .col-md-10.mb-4.mb-md-0
+          p Se logra a partir de la aplicación de todas y cada una de las recomendaciones antes mencionadas para evitar que la identidad digital sea suplantada o robada.
+        .col-md-2
+          figure
+            img(src='@/assets/curso/44.svg', alt='Texto que describa la imagen')
+    #t_1_5.titulo-segundo(data-aos='fade-right')
+      h2 1.5 Grupos y comunidades digitales 
+    p.mb-5 Las comunidades digitales son la nueva era de la comunicación y es probable que en este momento o en momentos posteriores, cada persona haga parte de una o varias de ellas. A continuación, se muestra el concepto extendido al respecto:
+    ImagenInfografica.color-primario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/45.svg', alt='Texto que describa la imagen')
 
-
-
-
-
-
-
-
-
+      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="34%" y="39%")
+        .icono-tarjeta: img(src='@/assets/curso/46.svg', alt='Texto que describa la imagen' style="width: 99px")
+        .textos
+          .h5.mb-2 Comunidades digitales
+          p 
+            b Comunidad digital: 
+            | conjunto de individuos que comparten elementos en común, tales como un idioma, costumbres, visión del mundo, edad, ubicación geográfica, estatus social y roles (Sanz, 2005).
+            br
+            br
+            |Normalmente, los grupos y comunidades digitales con intereses comunes en un tema que comparten información, reflexiones, consejos e ideas, generando conocimientos con beneficio colectivo para su grupo o para una organización que pueden ser tan diversos dependiendo del tipo de red social o herramienta tecnológica que se utilice.
+      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="52%" y="56%")
+        .icono-tarjeta: img(src='@/assets/curso/47.svg', alt='Texto que describa la imagen' style="width: 99px")
+        .textos
+          .h5.mb-2 Ejemplos
+          p
+            b Redes sociales: 
+            |buscan que sus miembros o usuarios conectarse con otros que tengan sus mismos intereses, a través de grupos, hashtags y otras herramientas en plataformas como: Facebook, Instagram, Twitter, esto permite interconectar personas y facilitar la creación de grupos y comunidades frente a una temática, gusto o preferencias.
+            br
+            br
+            b IM: 
+            |la mensajería instantánea donde aplicaciones como WhatsApp, Telegram tienen su mayor uso o preferencia de los usuarios donde en tiempo real podemos interactuar entre 2 o más personas y estar opinando y participando activamente de una temática.
+            br
+            br
+            b Foros: 
+            |son sitios o servicios a través de páginas web con la finalidad de participar en debates con aportes frente a una temática en particular.
+            br
+            br
+            b Wiki: 
+            |son páginas donde los usuarios pueden leer y editar información sobre conceptos o definiciones, normalmente tienen asociados foros donde se pueden escribir y publicar sus opiniones sobre estos temas.
+            br
+            br
+            b Blogs: 
+            |son sitios web donde los usuarios tienen la particularidad de acceder constantemente a temáticas que se actualizan con información nueva y relevante en forma de post o artículos sobre temas diversos.
+      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="67%" y="30%")
+        .icono-tarjeta: img(src='@/assets/curso/48.svg', alt='Texto que describa la imagen' style="width: 99px")
+        .textos
+          .h5.mb-2 Características
+          p
+            b Ubicación geográfica: 
+            | gracias a la globalización en el uso de las tecnologías de la información y las comunicaciones, la ubicación geográfica para pertenecer a una comunidad o grupo digital suele ser irrelevante, lo importante es que se compartan los mismos intereses por lo que temas como el lugar de origen o el idioma no son tan importantes al momento de pertenecer a una de estas comunidades.
+            br
+            br
+            b Roles y funciones: 
+            |todos los miembros de las comunidades y grupos participan en estos con un rol específico que pueden ser moderadores, community managers, contribuyentes, visitantes, consumidores, entre otros.
+            br
+            br
+            b Medios digitales: 
+            |si bien los miembros de un grupo o comunidad digital pueden estar geográficamente cerca o en la misma región, la satisfacción de la pertenencia a estos grupos y comunidades es justamente la utilización de medios digitales como páginas web, servicios digitales a través de internet.
+            br
+            br
+            b Sentido de pertenencia: 
+            |esta se da de igual o más fuerte que con grupos tradicionales, lo que nos indica que el contacto físico es irrelevante para ser parte de un grupo o comunidad.
+    p.mb-5 Los grupos y comunidades virtuales brindan la posibilidad de establecer contacto directo a través de medios digitales como el internet con personas que comparten los mismos intereses, gustos y posiciones, pero evitando el protocolo que existe en las relaciones interpersonales del plano físico.
+    .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
+        .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
+        .contenedor-img__3: img(src='@/assets/curso/49.png', alt='Texto que describa la imagen' style='width: 292px')
+        .row.justify-content-end
+          .col-lg-9
+            p Adicionalmente, estos grupos facilitan el perfilamiento y creación de identidades digitales a partir de la identificación de tendencias y comportamientos, la clasificación o segmentación de mercados potenciales lo que genera impacto directo en la comercialización de bienes y servicios, posicionando marcas y/o generando tendencias en los mercados.
 
 
 
@@ -247,9 +411,12 @@
 </template>
 
 <script>
+import AcordeonD from '@/components/AcordeonD.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    AcordeonD,
+  },
   data: () => ({
     mostrarIndicador: true,
   }),
@@ -298,4 +465,21 @@ export default {
     @media (max-width: $bp-max-md)
       bottom: 10%
       left: 0
+.tf
+  &__1
+    background-color: #498ED3 !important
+  &__2
+    background-color: #38B5ED !important
+  &__3
+    background-color: #1391D5 !important
+  &__4
+    background-color: #F64F4C !important
+.contenido-tarjeta
+  .textos
+    margin-top: 40px
+
+  .icono-tarjeta
+    position: absolute
+    top: 0
+    transform: translateY(-50%)
 </style>
