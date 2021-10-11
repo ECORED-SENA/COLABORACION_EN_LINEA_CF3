@@ -44,10 +44,14 @@
         .contenedor-img__3: img(src='@/assets/curso/4.png', alt='Texto que describa la imagen' style='width: 383px')
         .row.justify-content-end
           .col-lg-7
-            .texto-adorno.texto-adorno__3
+            .texto
               p.h1.fw-normal
                 b ¿Sabías que el uso de las redes sociales está determinado por el usuario? 
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.mb-5 Es así como cada red puede hacer su aparición en muchos casos de uso, como son:
     .row.mb-3
       .col-lg-3.mb-3
@@ -178,8 +182,12 @@
         .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 505px')
         .row.justify-content-end
           .col-lg-7
-            .texto-adorno
+            .texto
               p.h1.fw-normal ¿Cómo han transformado las redes sociales a la sociedad actual? 
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         .bloque-texto-b.color-primario.p-4
@@ -223,9 +231,13 @@
         .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 505px')
         .row.justify-content-end
           .col-lg-7
-            .texto-adorno.texto-adorno__4
+            .texto
               p.h1.fw-normal ¿Es seguro dejar todos los perfiles de redes sociales abiertos con fotos y comentarios personales al alcance de cualquiera? 
                 b ¿O es mejor tenerlos parcialmente privados? 
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.mb-5 La pregunta es determinar, 
       b ¿qué tipo de perfil debería de utilizar, público o privado?
       br
@@ -280,10 +292,14 @@
         .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 292px')
         .row.justify-content-start
           .col-lg-7
-            .texto-adorno.texto-adorno
+            .texto
               p.h1.fw-normal 
                 b Tener los perfiles públicos con los datos personales abiertos al mundo podría generar problemas dependiendo de lo que se publique, 
                 | por ejemplo un hacker o delincuente informático puede utilizar las fotos, videos y publicaciones para suplantar una identidad, ya sea en la misma red social o en cualquier otra red, y a partir de la creación de estos perfiles falsos buscar contactar a familiares y amigos y tratar de estafarlos; además, puede ser utilizada la información para tratar de causar daño, adivinar contraseñas o para afectar la imagen profesional tomando como argumentos las ideas, opiniones o fotos controversiales publicadas en los perfiles.
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.mb-5 El riesgo está en que las fotos, videos y publicaciones en general puedan ser utilizados por cualquier persona en cualquier parte del mundo sin que el propietario se dé cuenta, otra consideración importante es tener mucho cuidado con lo que se publica, debido a que algunas de las publicaciones podrían considerarse inapropiadas y pueden ser utilizadas para afectar la imagen del dueño de la cuenta.
       br
       br

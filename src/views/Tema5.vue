@@ -19,9 +19,13 @@
         .contenedor-img__3: img(src='@/assets/curso/97.png', alt='Texto que describa la imagen' style='width: 367px')
         .row.justify-content-end
           .col-lg-8
-            .texto-adorno
+            .texto
               p.h1.fw-normal En ese sentido nace una pregunta: 
                 b ¿qué estrategia a partir de las herramientas y funcionales que brinda la red social se debería utilizar para potencializar un negocio o empresa?
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     p.mb-5 Esta red social brinda la posibilidad de tener dos alternativas a utilizar, las cuales son:
     .row.mb-5.justify-content-center
       .col-md-3.mb-4.mb-xl-0

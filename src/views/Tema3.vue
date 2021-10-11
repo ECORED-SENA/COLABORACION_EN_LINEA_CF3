@@ -196,9 +196,13 @@
         .contenedor-img__3: img(src='@/assets/curso/86.png', alt='Texto que describa la imagen' style='width: 505px')
         .row.justify-content-end
           .col-lg-7
-            .texto-adorno
+            .texto
               p.h1.fw-normal  Usar a diario y con mucha intensidad no necesariamente es un sinónimo de buen uso, la pregunta es si se sabe ¿qué escribir? y ¿bajo qué características debería estar escrito un correo electrónico?
               p Pachter (2010), una gurú en cuestiones de educación en los negocios, cree que no, tal como lo narra en The Essentials of Business Etiquette, desde donde propone las 10 reglas de oro para el uso adecuado del email, así:
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     figure(data-aos="zoom-in-up")
       img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen')
 
