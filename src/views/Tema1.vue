@@ -16,9 +16,13 @@
         .contenedor-img__2: img(src='@/assets/curso/3.png', alt='Texto que describa la imagen' style='width: 383px')
         .row.justify-content-end
           .col-lg-8
-            .texto-adorno
+            .texto
               p Ahora, te invitamos a analizar:
               p.h1.fw-normal.mb-5 ¿Qué es un seguidor en el contexto de las redes sociales? 
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     #t_1_1.titulo-segundo(data-aos='fade-right')
       h2 1.1 Tipos de redes sociales
     p.mb-5 Los tipos de redes sociales son tan variados como las personas, por eso es claro saber cuáles de esas son para su uso y cuáles no. En el siguiente video se brinda más información sobre este tema.
