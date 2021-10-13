@@ -5,12 +5,16 @@
     background-color: $color-primario !important
     &-claro
       background-color: #DCCCEC !important
+    &-claro2
+      background-color: #C1A9D9 !important
   &--2
     background-color: $color-secundario !important
     &-claro
       background-color: #99EBF7 !important
     &-claro-2
       background-color: #CCF5FB !important
+    &-claro-3
+      background-color: #99EBF7 !important
   &--3
     background-color: $color-acento-contenido !important
     &-claro
@@ -39,10 +43,11 @@
     &-claro
       color: lighten($color-acento-botones, 30% ) !important
 .contenedor
+  border-radius: 100px 0px 100px 0px
   min-height: 189px
   @media (min-width: $bp-min-lg)
-    margin-top: 200px !important
-    margin-bottom: 100px !important
+    margin-top: 60px !important
+    margin-bottom: 60px !important
   position: relative
   .avatar
     display: flex
@@ -50,7 +55,7 @@
       margin: 0 auto
       width: 200px !important
       display: none
-      @media (max-width: $bp-max-md)
+      @media (max-width: $bp-max-lg)
         display: block
   .contenedor-img
     &__1
@@ -71,7 +76,19 @@
       position: absolute
       bottom: -20px
       right: 80px
-    @media (max-width: $bp-max-md)
+    &__6
+      position: absolute
+      bottom: -20px
+      left: 0
+    &__7
+      position: absolute
+      bottom: -50px
+      left: 0
+    &__8
+      position: absolute
+      bottom: -100px
+      left: 0
+    @media (max-width: $bp-max-lg)
       &__1, &__2, &__3, &__4, &__5, &__6, &__7, &__8, &__9, 
         display: none
 .texto-adorno
@@ -83,7 +100,7 @@
     height: 30px
     bottom: -30px
     left: 0
-  @media (min-width: $bp-min-lg)
+  @media (min-width: $bp-max-lg)
     &__1
     &__1
     &__3
@@ -101,6 +118,16 @@
       top: -40px
       left: 50px
       width: 70%
+    &__6
+      position: absolute
+      bottom: 0
+      left: 50px
+      width: 70%
+    &__7
+      position: absolute
+      bottom: 0
+      right: 50px
+      width: 60%
 .lista-ol--cuadro__vineta
   color: $color-sistema-texto
   font-size: 20px
@@ -142,3 +169,15 @@ a.boton
     background-color: #6018AA
   &__10
     background-color: #5000A1
+.m-additional
+  @media (min-width: $bp-min-lg)
+    margin-top: 150px !important
+    min-height: 450px !important
+.m-additional2
+  @media (min-width: $bp-min-lg)
+    margin-top: 200px !important
+    margin-bottom: 50px !important
+.m-additional3 
+  @media (min-width: $bp-min-lg)
+    margin-top: 200px !important
+    margin-bottom: 50px !important

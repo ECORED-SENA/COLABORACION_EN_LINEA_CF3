@@ -22,7 +22,7 @@
               img(src='@/assets/curso/51.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 No aceptar contactos desconocidos
-            p Aceptar contactos desconocidos incrementa las posibilidades de recibir mensajes spam o mensajes con links a sitios fraudulentos o con contenido malicioso.
+            p Aceptar contactos desconocidos incrementa las posibilidades de recibir mensajes spam o mensajes con <i>links</i> a sitios fraudulentos o con contenido malicioso.
         .row(titulo="3")
           .col-md-5
             figure
@@ -43,7 +43,7 @@
               img(src='@/assets/curso/54.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 No almacenar contraseñas
-            p El uso de equipos compartidos requiere que no se guarden las contraseñas de acceso en el sistema, pues los equipos de uso público y empresarial no están dispuesto para el uso de recursos personales. 
+            p El uso de equipos compartidos requiere que no se guarden las contraseñas de acceso en el sistema, pues los equipos de uso público y empresarial no están dispuestos para el uso de recursos personales. 
         .row(titulo="6")
           .col-md-5
             figure
@@ -63,7 +63,7 @@
             figure
               img(src='@/assets/curso/57.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            h4 Procurar no visitar sitios en los que en los que se soliciten datos personales o contraseñas
+            h4 Procurar no visitar sitios en los que se soliciten datos personales o contraseñas
             p En equipos de acceso público, los equipos compartidos pueden contener herramientas maliciosas capaces de capturar todo lo que se escribe, incluyendo usuarios y contraseñas, de este modo podrían entrar a una cuenta y realizar los cambios que deseen.
         .row(titulo="9")
           .col-md-5
@@ -88,9 +88,9 @@
             p Muchos estafadores intentarán seducir con la idea de ganar accesorios o tarjetas de regalo gratis si se completa una encuesta, instala una aplicación o si se comparte una publicación en una red social; mediante estas técnicas los usuarios revelan su información personal.
     .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__3: img(src='@/assets/curso/61.png', alt='Texto que describa la imagen' style='width: 505px')
+        .contenedor-img__3: img(src='@/assets/curso/61.png', alt='Texto que describa la imagen' style='width: 405px')
         .row.justify-content-end
-          .col-lg-7
+          .col-lg-8
             p.h1.fw-normal  ¿Se quiere más seguidores y “Me gusta”?   
             p Siempre hay un precio que pagar al tratar de conseguir más seguidores o “Me gusta”. Ya sea pagando dinero para tener seguidores y/o “Me gusta” falsos, u otorgar voluntariamente los datos de la cuenta y convertirse de esta manera en un botnet social; estos esquemas no valen la pena porque ponen en riesgo la información de la cuenta. 
 </template>

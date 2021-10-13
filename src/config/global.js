@@ -150,11 +150,11 @@ export default {
     },
     {
       referencia:
-        'Pachter, B. (2010). The Essentials of Business Etiquette: How to Greet, Eat, and Tweet Your Way to Success. Bárbara Pachter.',
+        'Pachter, B. (2010). <i>The Essentials of Business Etiquette: How to Greet, Eat, and Tweet Your Way to Success</i>. Bárbara Pachter.',
       link: '',
     },
     {
-      referencia: 'Sanz, C. (2005). Tipos de comunidad',
+      referencia: 'Sanz, C. (2005). Tipos de comunidad. ',
       link: 'https://ejemplos.net/tipos-de-comunidad/',
     },
   ],
@@ -171,14 +171,14 @@ export default {
     },
     {
       termino: 'Fanpage',
-      terminoHtml: '<i>fanpage</i>',
+      terminoHtml: '<i>Fanpage</i>',
       significado:
-        'página de fans o seguidores en la red social de Facebook donde se posiciona una marca o una empresa.',
+        'página de <i>fans</i> o seguidores en la red social de Facebook donde se posiciona una marca o una empresa.',
     },
     {
       termino: 'Foro',
       significado:
-        'plataforma generalmente web donde las personas ingresan, se registran y pueden intercambiar ideas sobre temas de interés.',
+        'plataforma generalmente <i>web</i> donde las personas ingresan, se registran y pueden intercambiar ideas sobre temas de interés.',
     },
     {
       termino: 'Perfil',
@@ -204,7 +204,7 @@ export default {
     },
     {
       texto:
-        'Pita, M. R. (2020). Diferencias y beneficios de marketplace y ecommerce.',
+        'Pita, M. R. (2020). Diferencias y beneficios de <i>marketplace</i> y <i>ecommerce</i>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=nybuznUxmL4',
     },
@@ -228,7 +228,7 @@ export default {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Instructor',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Luis Fernando Botero Mendoza',
@@ -238,7 +238,7 @@ export default {
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisora Metodológica y Pedagógica',
+        cargo: 'Revisora metodológica y pedagógica',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
@@ -286,7 +286,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

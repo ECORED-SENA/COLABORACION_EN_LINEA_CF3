@@ -13,10 +13,14 @@
         .contenedor-img__1: img(src='@/assets/curso/1.png', alt='Texto que describa la imagen' style='width: 337px')
         .row.justify-content-end
           .col-lg-8
-            .texto-adorno
+            .texto
               p.h1.fw-normal.mb-5
                 b ¿Conoces y formas parte de alguna red social digital? 
                 |¿Te son familiares los nombres Facebook, Instagram o TikTok? 
+              .wrap-player
+                audio(controls='')
+                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  |  Your browser does not support the audio tag.
     .row.mb-5
       .col-lg-7(data-aos='fade-right')
         p.mb-5 En este módulo se estudiarán los conceptos sobre:

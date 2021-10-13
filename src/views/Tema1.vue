@@ -42,76 +42,75 @@
       figcaption Video: Leyenda del video
     #t_1_2.titulo-segundo(data-aos='fade-right')
       h2 1.2 Usos de las redes sociales
-    p.mb-5 Los tipos de redes sociales son tan variados como las personas, por eso es claro saber cuáles de esas son para su uso y cuáles no. En el siguiente video se brinda más información sobre este tema.
-    .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
+    .contenedor.bg--4-claro.p-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__3: img(src='@/assets/curso/4.png', alt='Texto que describa la imagen' style='width: 383px')
+        .contenedor-img__3: img(src='@/assets/curso/4.png', alt='Texto que describa la imagen' style='width: 357px')
         .row.justify-content-end
           .col-lg-7
-            .texto
+            .texto.texto-adorno__3
               p.h1.fw-normal
                 b ¿Sabías que el uso de las redes sociales está determinado por el usuario? 
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
-              .wrap-player
+              .wrap-player.mb-4
                 audio(controls='')
                   source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 Es así como cada red puede hacer su aparición en muchos casos de uso, como son:
     .row.mb-3
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/5.svg', alt='Texto que describa')
           h5 Mantener contacto con amigos y familiares.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/6.svg', alt='Texto que describa')
           h5 Mantenerse al día con las noticias y eventos de actualidad.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/7.svg', alt='Texto que describa')
           h5 Ocupar el tiempo libre.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/8.svg', alt='Texto que describa')
           h5 Encontrar contenido entretenido o divertido.
     .row.mb-3
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/9.svg', alt='Texto que describa')
           h5 Compartir su opinión sobre un determinado tema.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/10.svg', alt='Texto que describa')
           h5 Compartir fotos y videos con las demás personas.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/11.svg', alt='Texto que describa')
           h5 Generación de una red de contactos.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/12.svg', alt='Texto que describa')
           h5 Conocer gente nueva.
     .row.mb-5
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/13.svg', alt='Texto que describa')
           h5 Compartir los detalles de lo que se está haciendo en la vida diaria.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/14.svg', alt='Texto que describa')
           h5 Compartir perfil profesional y ofrecer y buscar empleo.
       .col-lg-3.mb-3
-        .bg--3.p-3.d-flex.h-100.align-items-center
+        .bg--3.px-2.py-3.d-flex.h-100.align-items-center
           figure.imagen-cartas
             img(src='@/assets/curso/15.svg', alt='Texto que describa')
           h5 Promocionar productos y servicios.
@@ -119,7 +118,7 @@
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img.p-5.d-flex
-            img(src="@/assets/curso/16.png" style="width: 199px").m-auto
+            img(src="@/assets/curso/16.png" style="width: 280px").m-auto
           .bloque-texto-g__texto.p-4
             p.mb-0 Al momento de crear una cuenta o registrarse en una red social se debe tener claro cuál o cuáles de las opciones expuestas serán los propósitos de uso. Como se mencionó anteriormente, se debe tener en cuenta que una misma red puede ser utilizada para uno o varios de los propósitos antes mencionados y que la información estará a la distancia de un clic si se hace pública, porque la responsabilidad de hacer o no su información pública es solo del usuario, por ello se debe pensar bien y hacerlo con responsabilidad. Hay un dicho especial para este caso: 
             b “subir una información a la red es muy fácil, pero descargarlo o hacerlo desaparecer es casi imposible”.
@@ -135,7 +134,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 1
-              | Hacer clic en el enlace de la parte inferior 
+              | Hacer clic en el enlace de la parte inferior.
             li 
               .lista-ol--cuadro__vineta
                 span 2
@@ -143,7 +142,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 3
-              | Ir al documento y leer el resumen en el idioma de preferencia
+              | Ir al documento y leer el resumen en el idioma de preferencia.
             li 
               .lista-ol--cuadro__vineta
                 span 4
@@ -180,7 +179,7 @@
               figure
                 img(src='@/assets/curso/21.jpg', alt='Texto que describa la imagen')
             .col-md-6.mb-4.mb-md-0
-              p Para ello se requiere de contar con una cuenta de correo electrónico o un número telefónico activo y una contraseña.
+              p A medida que se comparte y publica información, se crea la propia identidad digital asociada a ese perfil en esa red establecida.
     .contenedor.bg--3-claro.p-5.my-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
         .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 505px')
@@ -200,7 +199,7 @@
             p.mb-0 “Las redes sociales no solo cambiaron la forma en que las nuevas generaciones (nativos digitales) socializan, sino que también la manera en que debemos definir lo público y lo privado. Cada smartphone que funcione bajo el sistema operativo iOS o Android guarda la información de cada comentario que realizamos en Facebook, sabe quiénes son nuestros contactos en WhatsApp, registra cada lugar en el que estamos a través del GPS y hasta el asistente virtual Siri aprende a diferenciar nuestros estados de ánimo. En definitiva, la desarticulación de lo público y lo privado en las redes sociales plantea cambios que atañen a lo social y político” (Jaramillo, 2016).
             i.fas.fa-quote-right
       .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/23.jpg', alt='Texto que describa la imagen')
-    p.mb-5 El concepto de los perfiles públicos y privados inicia desde el mismo momento en que se crean cuentas o perfiles en las redes sociales, toda vez que en el proceso de registro se suministra información sensible como nombres, identificación, dirección, teléfono, correo electrónico, estado civil, gustos, preferencias, nacionalidad, entre otras, que normalmente se entrega de manera voluntaria al proveedor o dueño de la plataforma donde se está registrando, aceptando los términos y condiciones de la plataforma muchos de los datos privados pasan a ser públicos y de libre uso.
+    p.mb-5 El concepto de los perfiles públicos y privados inicia desde el mismo momento en que se crean cuentas o perfiles en las redes sociales, toda vez que en el proceso de registro se suministra información sensible como nombres, identificación, dirección, teléfono, correo electrónico, estado civil, gustos, preferencias, nacionalidad, entre otras, que normalmente se entrega de manera voluntaria al proveedor o dueño de la plataforma donde se está registrando, aceptando los términos y condiciones de la plataforma, muchos de los datos privados pasan a ser públicos y de libre uso.
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-4
@@ -230,13 +229,13 @@
             img(src='@/assets/curso/28.jpg')
             .tarjeta.bg--3.contendor-hover__tarjeta.p-3
               p Este es un perfil privado que no permite revisar la información de la cuenta mientras no sea permitido por el dueño del perfil a la hora de ser seguidor.
-    .contenedor.bg--1-claro.my-5.p-5.p-lg-0(data-aos="zoom-in-up")
+    .contenedor.bg--1-claro2.my-5.p-5.p-lg-0(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 505px')
+        .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 390px')
         .row.justify-content-end
-          .col-lg-7
-            .texto
-              p.h1.fw-normal ¿Es seguro dejar todos los perfiles de redes sociales abiertos con fotos y comentarios personales al alcance de cualquiera? 
+          .col-xl-7
+            .texto.texto-adorno__3.my-3
+              p.h1.fw-normal.ps-lg-4 ¿Es seguro dejar todos los perfiles de redes sociales abiertos con fotos y comentarios personales al alcance de cualquiera? 
                 b ¿O es mejor tenerlos parcialmente privados? 
               .wrap-player
                 audio(controls='')
@@ -290,13 +289,12 @@
       figcaption Video: Leyenda del video
     #t_1_4.titulo-segundo(data-aos='fade-right')
       h2 1.4 Configuración y seguridad de redes sociales 
-    p.mb-5  Antes de hablar de perfiles públicos y privados, se debe entender qué es un “perfil” en el contexto digital.
-    .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
+    .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up").m-additional
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
         .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 292px')
         .row.justify-content-start
           .col-lg-7
-            .texto
+            .texto.texto-adorno__6
               p.h1.fw-normal 
                 b Tener los perfiles públicos con los datos personales abiertos al mundo podría generar problemas dependiendo de lo que se publique, 
                 | por ejemplo un hacker o delincuente informático puede utilizar las fotos, videos y publicaciones para suplantar una identidad, ya sea en la misma red social o en cualquier otra red, y a partir de la creación de estos perfiles falsos buscar contactar a familiares y amigos y tratar de estafarlos; además, puede ser utilizada la información para tratar de causar daño, adivinar contraseñas o para afectar la imagen profesional tomando como argumentos las ideas, opiniones o fotos controversiales publicadas en los perfiles.
@@ -368,28 +366,26 @@
       .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="34%" y="39%")
         .icono-tarjeta: img(src='@/assets/curso/46.svg', alt='Texto que describa la imagen' style="width: 99px")
         .textos
-          .h5.mb-2 Comunidades digitales
-          p 
-            b Comunidad digital: 
-            | conjunto de individuos que comparten elementos en común, tales como un idioma, costumbres, visión del mundo, edad, ubicación geográfica, estatus social y roles (Sanz, 2005).
+          .h5.mb-2 Concepto
+          p Conjunto de individuos que comparten elementos en común, tales como un idioma, costumbres, visión del mundo, edad, ubicación geográfica, estatus social y roles (Sanz, 2005).
             br
             br
             |Normalmente, los grupos y comunidades digitales con intereses comunes en un tema que comparten información, reflexiones, consejos e ideas, generando conocimientos con beneficio colectivo para su grupo o para una organización que pueden ser tan diversos dependiendo del tipo de red social o herramienta tecnológica que se utilice.
-      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="52%" y="56%")
+      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="67%" y="30%")
         .icono-tarjeta: img(src='@/assets/curso/47.svg', alt='Texto que describa la imagen' style="width: 99px")
         .textos
           .h5.mb-2 Ejemplos
           p
             b Redes sociales: 
-            |buscan que sus miembros o usuarios conectarse con otros que tengan sus mismos intereses, a través de grupos, hashtags y otras herramientas en plataformas como: Facebook, Instagram, Twitter, esto permite interconectar personas y facilitar la creación de grupos y comunidades frente a una temática, gusto o preferencias.
+            |buscan que sus miembros o usuarios puedan conectarse con otros que tengan sus mismos intereses, a través de grupos, hashtags y otras herramientas en plataformas como: Facebook, Instagram, Twitter, esto permite interconectar personas y facilitar la creación de grupos y comunidades frente a una temática, gusto o preferencias.
             br
             br
             b IM: 
-            |la mensajería instantánea donde aplicaciones como WhatsApp, Telegram tienen su mayor uso o preferencia de los usuarios donde en tiempo real podemos interactuar entre 2 o más personas y estar opinando y participando activamente de una temática.
+            |la mensajería instantánea donde aplicaciones como WhatsApp y Telegram tienen mayor uso o preferencia de los usuarios, donde en tiempo real pueden interactuar entre 2 o más personas y estar opinando y participando activamente de una temática.
             br
             br
             b Foros: 
-            |son sitios o servicios a través de páginas web con la finalidad de participar en debates con aportes frente a una temática en particular.
+            |son sitios o servicios a través de páginas <i>web</i> con la finalidad de participar en debates con aportes frente a una temática en particular.
             br
             br
             b Wiki: 
@@ -397,8 +393,8 @@
             br
             br
             b Blogs: 
-            |son sitios web donde los usuarios tienen la particularidad de acceder constantemente a temáticas que se actualizan con información nueva y relevante en forma de post o artículos sobre temas diversos.
-      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="67%" y="30%")
+            |son sitios web donde los usuarios tienen la particularidad de acceder constantemente a temáticas que se actualizan con información nueva y relevante en forma de <i>post</i> o artículos sobre temas diversos.
+      .tarjeta.color-acento-contenido.contenido-tarjeta.p-4(x="52%" y="56%")
         .icono-tarjeta: img(src='@/assets/curso/48.svg', alt='Texto que describa la imagen' style="width: 99px")
         .textos
           .h5.mb-2 Características
@@ -420,7 +416,7 @@
     p.mb-5 Los grupos y comunidades virtuales brindan la posibilidad de establecer contacto directo a través de medios digitales como el internet con personas que comparten los mismos intereses, gustos y posiciones, pero evitando el protocolo que existe en las relaciones interpersonales del plano físico.
     .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__3: img(src='@/assets/curso/49.png', alt='Texto que describa la imagen' style='width: 292px')
+        .contenedor-img__3: img(src='@/assets/curso/49.png', alt='Texto que describa la imagen' style='width: 247px')
         .row.justify-content-end
           .col-lg-9
             p Adicionalmente, estos grupos facilitan el perfilamiento y creación de identidades digitales a partir de la identificación de tendencias y comportamientos, la clasificación o segmentación de mercados potenciales lo que genera impacto directo en la comercialización de bienes y servicios, posicionando marcas y/o generando tendencias en los mercados.
@@ -502,4 +498,12 @@ export default {
     position: absolute
     top: 0
     transform: translateY(-50%)
+.bloque-texto-g__img
+  @media (min-width: $bp-min-md)
+    img
+      position: absolute
+      bottom: 0
+      left: 10%
+.bloque-texto-g__texto
+  width: 70%
 </style>
