@@ -205,7 +205,9 @@
                   source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     figure(data-aos="zoom-in-up")
-      img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-xl-block
+      img(src='@/assets/curso/104.svg', alt='Texto que describa la imagen').d-none.d-sm-block.d-lg-none.d-xl-none
+      img(src='@/assets/curso/105.svg', alt='Texto que describa la imagen').d-lg-none.d-xl-none.d-md-none.d-sm-none.d-xs-block
 
 </template>
 
