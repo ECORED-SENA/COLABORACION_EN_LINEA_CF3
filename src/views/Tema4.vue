@@ -20,7 +20,7 @@
       .col-lg-6
         .bg--1.p-5.text-white.h-100
           img(src='@/assets/curso/90.svg' style='width: 71px').mb-3
-          h1.fw-normal ¿Cuáles son las ventajas de los marketplace?
+          h1.fw-normal ¿Cuáles son las ventajas de los <i>marketplace</i>?
           p Que en una sola plataforma puede observar la oferta de un mismo producto por varias tiendas o vendedores, lo que le da la posibilidad al cliente de elegir entre las ofertas la más favorable en términos de costos. Por su parte, los dueños de las tiendas o vendedores tienen la posibilidad de incrementar sus ventas, mejorar su visibilidad del mercado e incluso desarrollar emprendimientos totalmente <i>online</i> a través de estas plataformas.
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -49,7 +49,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
-    h3(data-aos="fade-right") Cómo funcionan los marketplaces
+    h3(data-aos="fade-right") Cómo funcionan los <i>marketplaces</i>
     p.mb-5 El funcionamiento de una plataforma de este es tipo, consiste en unir empresas con sus respectivos clientes potenciales y esto lo hacen de varias formas:
     .row.mb-5.justify-content-center
       .col-md-4.mb-4.mb-xl-0
@@ -61,12 +61,12 @@
         .tarjeta-numerada.color-secundario.border-4.px-5.h-100.pt-4
           .tarjeta-numerada__numero.p-2.d-flex.justify-content-center
             img(src='@/assets/curso/92.svg' style='width: 61px').m-auto
-          p.mb-0.mt-4 Luego de ese se hace una estrategia de publicidad, marketing y fidelización de los clientes a cambio.
-    p.mb-5 Todo esto se hace para que las empresas que van a vender en este marketplace paguen un porcentaje de la venta que va desde el 0,5 % hasta el 30 % según la estrategia de publicidad que decida adquirir el vendedor en el momento de registrar su tienda; cuanto más agresivo sea el plan de marketing, mayor será el porcentaje que debe asumir en las ventas el vendedor.
+          p.mb-0.mt-4 Luego de ese se hace una estrategia de publicidad, <i>marketing</i> y fidelización de los clientes a cambio.
+    p.mb-5 Todo esto se hace para que las empresas que van a vender en este <i>marketplace</i> paguen un porcentaje de la venta que va desde el 0,5 % hasta el 30 % según la estrategia de publicidad que decida adquirir el vendedor en el momento de registrar su tienda; cuanto más agresivo sea el plan de <i>marketing</i>, mayor será el porcentaje que debe asumir en las ventas el vendedor.
       br
       br
-      |Otra característica está en que las tiendas que acceden a registrarse en los marketplaces hacen ahorros significativos en infraestructura de TI (plataformas digitales), debido a que el dueño de la plataforma es quien le provee temas de hospedaje, seguridad, pasarelas de pago y administración en general de todo el componente de cómputo. 
-    h3(data-aos="fade-right") Tipos de marketplaces
+      |Otra característica está en que las tiendas que acceden a registrarse en los <i>marketplaces</i> hacen ahorros significativos en infraestructura de TI (plataformas digitales), debido a que el dueño de la plataforma es quien le provee temas de hospedaje, seguridad, pasarelas de pago y administración en general de todo el componente de cómputo. 
+    h3(data-aos="fade-right") Tipos de <i>marketplaces</i>
     p.mb-5 Básicamente existen dos tipos de <i>marketplaces</i>, y su diferencia radica en la forma en que se ejecuta la venta de un producto o servicio. Estos pueden ser: 
     .row.mb-5.justify-content-center
       .col-md-3.mb-4.mb-xl-0

@@ -10,12 +10,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 La actividad planteada consiste en organizar dos columnas en una se deben poner los términos y en otra columna aparte las definiciones, el objetivo es que el aprendiz haga la unión entre término y definición, de esta manera, podrá hacer un repaso general del desarrollo de este primer componente formativo.
+          h2 Emparejamiento entre término y definición
+        p.mb-4 Con esta actividad se busca afianzar algunos de los  conceptos más importantes de las redes sociales, las normas de comportamiento y los cuidados que debemos de tener al hacer uso de redes sociales, plataformas de trabajo y colaboración en línea.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Emparejamiento entre término y definición
+              p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-1/story.html')" target="_blank")
                 span Realizar
