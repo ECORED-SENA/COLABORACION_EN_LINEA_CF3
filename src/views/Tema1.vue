@@ -42,12 +42,12 @@
       figcaption Video: Leyenda del video
     #t_1_2.titulo-segundo(data-aos='fade-right')
       h2 1.2 Usos de las redes sociales
-    .contenedor.bg--4-claro.p-5(data-aos="zoom-in-up")
+    .contenedor.bg--4-claro.p-5(data-aos="zoom-in-up").margin-1
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__3: img(src='@/assets/curso/4.png', alt='Texto que describa la imagen' style='width: 357px')
+        .contenedor-img__3: img(src='@/assets/curso/4.png', alt='Texto que describa la imagen' style='width: 505px')
         .row.justify-content-end
           .col-lg-7
-            .texto.texto-adorno__3
+            .texto.texto-adorno__2
               p.h1.fw-normal
                 b ¿Sabías que el uso de las redes sociales está determinado por el usuario? 
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
@@ -229,7 +229,7 @@
             img(src='@/assets/curso/28.jpg')
             .tarjeta.bg--3.contendor-hover__tarjeta.p-3
               p Este es un perfil privado que no permite revisar la información de la cuenta mientras no sea permitido por el dueño del perfil a la hora de ser seguidor.
-    .contenedor.bg--1-claro2.my-5.p-5.p-lg-0(data-aos="zoom-in-up")
+    .contenedor.bg--1-claro2.my-5.p-5.p-lg-0(data-aos="zoom-in-up").margin-2
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
         .contenedor-img__2: img(src='@/assets/curso/22.png', alt='Texto que describa la imagen' style='width: 390px')
         .row.justify-content-end
@@ -292,10 +292,10 @@
     .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up").m-additional
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
         .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 292px')
-        .row.justify-content-start
-          .col-lg-7
+        .row.justify-content-start.align-items-center
+          .col-lg-9.d-flex.align-items-center
             .texto.texto-adorno__6
-              p.h1.fw-normal 
+              p.h3.fw-normal 
                 b Tener los perfiles públicos con los datos personales abiertos al mundo podría generar problemas dependiendo de lo que se publique, 
                 | por ejemplo un hacker o delincuente informático puede utilizar las fotos, videos y publicaciones para suplantar una identidad, ya sea en la misma red social o en cualquier otra red, y a partir de la creación de estos perfiles falsos buscar contactar a familiares y amigos y tratar de estafarlos; además, puede ser utilizada la información para tratar de causar daño, adivinar contraseñas o para afectar la imagen profesional tomando como argumentos las ideas, opiniones o fotos controversiales publicadas en los perfiles.
               .wrap-player
@@ -506,4 +506,10 @@ export default {
       left: 10%
 .bloque-texto-g__texto
   width: 70%
+.margin-1
+  @media (min-width: $bp-max-md)
+    margin-top: 200px !important
+.margin-2
+  @media (min-width: $bp-max-md)
+    margin-top: 100px !important
 </style>
