@@ -10,7 +10,7 @@
       h1 Introducción
     .contenedor.bg--2-claro-2.p-5.my-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__1: img(src='@/assets/curso/1.png', alt='Texto que describa la imagen' style='width: 337px')
+        .contenedor-img__1: img(src='@/assets/curso/1.png', alt='Texto que describa la imagen' style='width: 320px')
         .row.justify-content-end
           .col-lg-8
             .texto

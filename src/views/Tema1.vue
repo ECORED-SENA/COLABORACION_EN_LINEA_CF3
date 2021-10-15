@@ -48,7 +48,7 @@
         .row.justify-content-end
           .col-lg-7
             .texto.texto-adorno__2
-              p.h1.fw-normal
+              p.h2.fw-normal
                 b ¿Sabías que el uso de las redes sociales está determinado por el usuario? 
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
               .wrap-player.mb-4
@@ -291,7 +291,7 @@
       h2 1.4 Configuración y seguridad de redes sociales 
     .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up").m-additional
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
-        .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 292px')
+        .contenedor-img__4: img(src='@/assets/curso/36.png', alt='Texto que describa la imagen' style='width: 220px')
         .row.justify-content-start.align-items-center
           .col-lg-9.d-flex.align-items-center
             .texto.texto-adorno__6

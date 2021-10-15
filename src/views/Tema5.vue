@@ -19,8 +19,8 @@
         .contenedor-img__7: img(src='@/assets/curso/97.png', alt='Texto que describa la imagen' style='width: 367px')
         .row.justify-content-end
           .col-lg-8
-            .texto.texto-adorno__3
-              p.h1.fw-normal En ese sentido nace una pregunta: 
+            .texto.texto-adorno__9
+              p.h2.fw-normal En ese sentido nace una pregunta: 
                 b ¿qué estrategia a partir de las herramientas y funciones que brinda la red social se debería utilizar para potencializar un negocio o empresa?
               .wrap-player
                 audio(controls='')
