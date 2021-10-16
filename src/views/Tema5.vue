@@ -82,7 +82,7 @@
     .row.mb-5(data-aos="zoom-in-up").justify-content-center.align-items-center
       .col-lg-10
         .fondo-boton.p-5.d-flex.justify-content-center.align-items-center
-          h4.text-white.mb-0 "Si descifraste la clave del reto puedes reclamar tu premio acá"
+          h4.text-white.mb-0 Si descifraste la clave del reto puedes reclamar tu premio acá
           a.boton.color-acento-botones.ms-5(:href="obtenerLink('/downloads/premio.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
