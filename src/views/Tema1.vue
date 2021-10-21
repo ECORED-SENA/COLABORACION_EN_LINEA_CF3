@@ -9,8 +9,7 @@
     p.mb-5 Las redes sociales, a manera de comunicación, son un gran descubrimiento y para el ser humano pueden ser la solución a muchos de los problemas globales ya que dan visibilidad a lo que anteriormente era casi imposible de ver, tal como lo presenta el siguiente video:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/mATxSe_h5r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .contenedor.bg--2-claro-2.p-5.my-5(data-aos="zoom-in-up")
         .avatar: img(src='@/assets/curso/avatar1.png', alt='Texto que describa la imagen' style='width: 582px')
         .contenedor-img__2: img(src='@/assets/curso/3.png', alt='Texto que describa la imagen' style='width: 383px')
@@ -28,18 +27,25 @@
     p.mb-5 Los tipos de redes sociales son tan variados como las personas, por eso es claro saber cuáles de esas son para su uso y cuáles no. En el siguiente video se brinda más información sobre este tema.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Vu_jQSLPGnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Facebook, que originalmente fue creada como una red para conectar personas, en la actualidad es utilizada para ofertar productos y servicios, ofrecer entretenimiento y ser un medio que facilita la publicación y contratación de oferta laboral, entre otros tantos usos.
       br
       br
       |Se invita a revisar su conocimiento acerca de estas redes. 
       b ¿Qué se debe hacer? 
       |Llegar al final del siguiente video para encontrar una clave secreta.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .tarjeta.bg--1-claro.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/cta.svg")
+
+        .col-md.col-lg-6
+          h3 Scaperoom 1
+          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom1/story.html')" target="_blank" type="application/pdf")
+            span Ver video
+            i.fas.fa-file-video
     #t_1_2.titulo-segundo(data-aos='fade-right')
       h2 1.2 Usos de las redes sociales
     .contenedor.bg--4-claro.p-5(data-aos="zoom-in-up").margin-1
@@ -283,10 +289,18 @@
       br
       br
       |Ya se debe tener una palabra clave como mínimo para el premio, ahora continúe en su rol de investigador:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .tarjeta.bg--1-claro.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/cta.svg")
+
+        .col-md.col-lg-6
+          h3 Scaperoom 2
+          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom2/story.html')" target="_blank" type="application/pdf")
+            span Ver video
+            i.fas.fa-file-video
     #t_1_4.titulo-segundo(data-aos='fade-right')
       h2 1.4 Configuración y seguridad de redes sociales 
     .contenedor.bg--4-claro.p-5.my-5(data-aos="zoom-in-up").m-additional

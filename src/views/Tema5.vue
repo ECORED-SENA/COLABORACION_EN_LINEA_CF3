@@ -45,8 +45,7 @@
     p.mb-5 El siguiente video nos amplía este concepto.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0tWJb1kXnfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     h3(data-aos="fade-right") Diferencias entre perfiles empresariales y fanpage
     p.mb-5 Varias redes tienen una diferenciación entre sus perfiles personales y empresariales, a continuación, se encuentra una de las redes más famosas y se evidencia con claridad esta diferenciación:
     .row.mb-5
@@ -72,12 +71,20 @@
               |Es similar a un perfil de Facebook, pero ofrece herramientas y funcionalidades propias del marketing digital que garantiza conocer las interacciones, alcance y cantidad de personas que son alcanzadas, con las publicaciones hechas y siguiendo una estrategia comercial.
 
             .tarjeta.tarjeta--am.p-4
-            p.mb-0 Estas páginas son estupendas para generar seguidores en línea, porque no están limitadas a la cantidad de solicitudes de amistad. En cambio, los usuarios solo tienen que hacer clic en el botón “Me gusta” para comenzar a recibir las actualizaciones en su <i>feed</i> de noticias.
+              p.mb-0 Estas páginas son estupendas para generar seguidores en línea, porque no están limitadas a la cantidad de solicitudes de amistad. En cambio, los usuarios solo tienen que hacer clic en el botón “Me gusta” para comenzar a recibir las actualizaciones en su <i>feed</i> de noticias.
     p.mb-5 Ahora, a continuar jugando.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .tarjeta.bg--1-claro.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/cta.svg")
+
+        .col-md.col-lg-6
+          h3 Scaperoom 3
+          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom3/story.html')" target="_blank" type="application/pdf")
+            span Ver video
+            i.fas.fa-file-video
     p.mb-5 Has llegado al final de la información, es tu responsabilidad volverla conocimiento y practicar todo el tiempo, solo una cosa más nos falta:
     .row.mb-5(data-aos="zoom-in-up").justify-content-center.align-items-center
       .col-lg-10
