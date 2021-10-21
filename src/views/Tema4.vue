@@ -37,7 +37,7 @@
               p.h2.fw-normal Aunque el concepto de <i>marketplace</i> no es nuevo, en los últimos años se ha desarrollado a un ritmo acelerado, al punto que empresas como Amazon pasó de tener una plataforma de <i>e-commerce</i>, donde comercializaba libros, a tener una plataforma de múltiples tiendas en línea donde se ofrecen y comercializan cientos y miles de productos y servicios distintos.
               .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A7.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     p.mb-5 Algunas de las plataformas más vistosas en línea que desarrollan este servicio son 
       b Amazon, Alibaba, MercadoLibre, Shopee, Linio, entre otras; 

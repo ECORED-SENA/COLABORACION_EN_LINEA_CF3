@@ -20,7 +20,7 @@
               p.h1.fw-normal.mb-5 ¿Qué es un seguidor en el contexto de las redes sociales? 
               .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A2.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     #t_1_1.titulo-segundo(data-aos='fade-right')
       h2 1.1 Tipos de redes sociales
@@ -59,7 +59,7 @@
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
               .wrap-player.mb-4
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A3.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     p.mb-5 Es así como cada red puede hacer su aparición en muchos casos de uso, como son:
     .row.mb-3
@@ -195,7 +195,7 @@
               p.h1.fw-normal ¿Cómo han transformado las redes sociales a la sociedad actual? 
               .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A4.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
@@ -245,7 +245,7 @@
                 b ¿O es mejor tenerlos parcialmente privados? 
               .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A5.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     p.mb-5 La pregunta es determinar, 
       b ¿qué tipo de perfil debería de utilizar, público o privado?
@@ -312,10 +312,6 @@
               p.h3.fw-normal 
                 b Tener los perfiles públicos con los datos personales abiertos al mundo podría generar problemas dependiendo de lo que se publique, 
                 | por ejemplo un hacker o delincuente informático puede utilizar las fotos, videos y publicaciones para suplantar una identidad, ya sea en la misma red social o en cualquier otra red, y a partir de la creación de estos perfiles falsos buscar contactar a familiares y amigos y tratar de estafarlos; además, puede ser utilizada la información para tratar de causar daño, adivinar contraseñas o para afectar la imagen profesional tomando como argumentos las ideas, opiniones o fotos controversiales publicadas en los perfiles.
-              .wrap-player
-                audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
-                  |  Your browser does not support the audio tag.
     p.mb-5 El riesgo está en que las fotos, videos y publicaciones en general puedan ser utilizados por cualquier persona en cualquier parte del mundo sin que el propietario se dé cuenta, otra consideración importante es tener mucho cuidado con lo que se publica, debido a que algunas de las publicaciones podrían considerarse inapropiadas y pueden ser utilizadas para afectar la imagen del dueño de la cuenta.
       br
       br

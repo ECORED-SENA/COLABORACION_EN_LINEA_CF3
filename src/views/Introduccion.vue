@@ -19,7 +19,7 @@
                 |¿Te son familiares los nombres Facebook, Instagram o TikTok? 
               .wrap-player
                 audio(controls='')
-                  source(src='https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3' type='audio/mpeg')
+                  source(src='../../public/downloads/A1.wav' type='audio/wav')
                   |  Your browser does not support the audio tag.
     .row.mb-5
       .col-lg-7(data-aos='fade-right')
