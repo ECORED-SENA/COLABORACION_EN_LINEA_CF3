@@ -83,7 +83,7 @@
 
         .col-md.col-lg-6
           h3 Scaperoom 3
-          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          p.mb-4 Si todo va bien haz llegado al final del reto propuesto pero antes de ganar tu premio solo queda la fase final que se encuentra en este nuevo video, si lo logras descubrirás la clave que desbloquea el premio. Solo nos queda desearte éxitos...
           
           a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom3/story.html')" target="_blank" type="application/pdf")
             span Ver video

@@ -41,7 +41,7 @@
 
         .col-md.col-lg-6
           h3 Scaperoom 1
-          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          p.mb-4 Bienvenido a la actividad llamada Scaperrom  donde vas a demostrar tu habilidad como conocedor digital, la actividad es un reto en el que debes seguir las instrucciones para descubrir las claves que te solicitarán más adelante, éxitos...
           
           a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom1/story.html')" target="_blank" type="application/pdf")
             span Ver video
@@ -296,7 +296,7 @@
 
         .col-md.col-lg-6
           h3 Scaperoom 2
-          p.mb-4 There is no right answer. The splendor of the mystery is that you don’t understand. Your rapidograph pens are dried up, the x-acto blades in your bag are rusty, and your mind is dull. Stop clicking your mouse, get messy, go back to the basics and make something original. Why are you reading all of this?
+          p.mb-4 Vas bien, esperamos que ya tengas listas algunas pistas y continúes tu proceso de aprendizaje de la mano de tu creatividad y compromiso, acá tienes otro pedazo del reto, presta mucha atención para descubrir las pistas...
           
           a.boton.color-acento-botones(:href="obtenerLink('/downloads/Scaperoom2/story.html')" target="_blank" type="application/pdf")
             span Ver video
