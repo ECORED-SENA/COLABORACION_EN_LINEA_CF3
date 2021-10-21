@@ -47,7 +47,7 @@
       |Para entender con claridad el concepto y el comercio electrónico como comprador o vendedor digital, se invita a revisar el siguiente elemento donde se ve con claridad el servicio de las ventas y compras digitales:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/z0H0kgzr71E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     h3(data-aos="fade-right") Cómo funcionan los <i>marketplaces</i>
     p.mb-5 El funcionamiento de una plataforma de este es tipo, consiste en unir empresas con sus respectivos clientes potenciales y esto lo hacen de varias formas:
