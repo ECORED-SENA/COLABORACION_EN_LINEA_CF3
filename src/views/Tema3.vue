@@ -9,7 +9,7 @@
     .row.mb-5.align-items-center
       .col-lg-5(data-aos="fade-right"): img(src='@/assets/curso/62.svg').mb-5
       .col-lg-7(data-aos="fade-left")
-        p Cuando se realiza acceso frecuente a plataformas y herramientas tecnológicas, incluyendo las redes sociales, hay que cumplir con una serie de recomendaciones en cuanto al comportamiento que debe realizarse igual en la interacción directa que en la online.
+        p Cuando se realiza acceso frecuente a plataformas y herramientas tecnológicas, incluyendo las redes sociales, hay que cumplir con una serie de recomendaciones en cuanto al comportamiento que debe realizarse igual en la interacción directa que en la <i>online</i>.
           br
           br
           |Particularmente se debe poner especial atención a lo que se escribe o publica, y se conoce con el nombre de netiqueta. Este concepto surge de la palabra francesa etiquette (buenas maneras) y la inglesa net (red), para determinar las normas de comportamiento que debían cumplir los usuarios al hacer uso de herramientas como foros, redes sociales, chats y correos electrónicos, entre otros.
@@ -39,7 +39,7 @@
             .col-md-10.col-8
               .contenido.p-5.h-100
                 h4 NO intentar llamar la atención
-                p En la escritura y publicaciones se debe tener especial atención a no utilizar el teclado en mayúscula y/o negrita y el uso de exclamaciones, pues lo que representan son comportamientos agresivos o gritos de quien lo hace de manera online y a nadie le gusta que le griten.
+                p En la escritura y publicaciones se debe tener especial atención a no utilizar el teclado en mayúscula y/o negrita y el uso de exclamaciones, pues lo que representan son comportamientos agresivos o gritos de quien lo hace de manera <i>online</i> y a nadie le gusta que le griten.
           .row.mb-2.g-0
             .col-md-2.col-4
               .numero.morado__3.text-center.text-white.p-4.h-100.d-flex.align-items-center.justify-content-center
@@ -202,7 +202,7 @@
               p Pachter (2010), una gurú en cuestiones de educación en los negocios, cree que no, tal como lo narra en The Essentials of Business Etiquette, desde donde propone las 10 reglas de oro para el uso adecuado del email, así:
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A6.wav' type='audio/wav')
+                  source(src='../../public/downloads/A6.wav' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     figure(data-aos="zoom-in-up")
       img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-xl-block

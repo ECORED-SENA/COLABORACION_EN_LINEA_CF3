@@ -16,7 +16,7 @@
         .bg--3.p-5.h-100
           img(src='@/assets/curso/89.svg' style='width: 71px').mb-3
           h1.fw-normal ¿Cuál es la diferencia con el comercio electrónico?
-          p La principal diferencia está determinada por el manejo de las ganancias, mientras en el <i>ecommerce</i> tradicional (comercio electrónico) el 100 % de las ganancias son para el vendedor; en los <i>marketplace</i> hay una pequeña fracción o porcentaje para el dueño de la plataforma que facilita la comercialización de cientos de tiendas.
+          p La principal diferencia está determinada por el manejo de las ganancias, mientras en el <i>e-commerce</i> tradicional (comercio electrónico) el 100 % de las ganancias son para el vendedor; en los <i>marketplace</i> hay una pequeña fracción o porcentaje para el dueño de la plataforma que facilita la comercialización de cientos de tiendas.
       .col-lg-6
         .bg--1.p-5.text-white.h-100
           img(src='@/assets/curso/90.svg' style='width: 71px').mb-3
@@ -37,7 +37,7 @@
               p.h2.fw-normal Aunque el concepto de <i>marketplace</i> no es nuevo, en los últimos años se ha desarrollado a un ritmo acelerado, al punto que empresas como Amazon pasó de tener una plataforma de <i>e-commerce</i>, donde comercializaba libros, a tener una plataforma de múltiples tiendas en línea donde se ofrecen y comercializan cientos y miles de productos y servicios distintos.
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A7.wav' type='audio/wav')
+                  source(src='../../public/downloads/A7.wav' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 Algunas de las plataformas más vistosas en línea que desarrollan este servicio son 
       b Amazon, Alibaba, MercadoLibre, Shopee, Linio, entre otras; 
@@ -48,7 +48,6 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/z0H0kgzr71E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
     h3(data-aos="fade-right") Cómo funcionan los <i>marketplaces</i>
     p.mb-5 El funcionamiento de una plataforma de este es tipo, consiste en unir empresas con sus respectivos clientes potenciales y esto lo hacen de varias formas:
     .row.mb-5.justify-content-center

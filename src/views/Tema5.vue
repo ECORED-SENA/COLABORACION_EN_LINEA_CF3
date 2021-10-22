@@ -24,7 +24,7 @@
                 b ¿qué estrategia a partir de las herramientas y funciones que brinda la red social se debería utilizar para potencializar un negocio o empresa?
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A8.wav' type='audio/wav')
+                  source(src='../../public/downloads/A8.wav' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 Esta red social brinda la posibilidad de tener dos alternativas a utilizar, las cuales son:
     .row.mb-5.justify-content-center
@@ -40,8 +40,8 @@
           .img-hover: img(src='@/assets/curso/101.jpg')
           .contenido
             img(src='@/assets/curso/99.svg' style='width: 108px').m-auto.mb-3
-            h4.text-center Fanpage
-            p.text-center.mb-0 Se utilizan cuando lo que se quiere es hacer marketing online y promover su negocio.
+            h4.text-center <i>Fanpage</i>
+            p.text-center.mb-0 Se utilizan cuando lo que se quiere es hacer <i>marketing</i> <i>online</i> y promover su negocio.
     p.mb-5 El siguiente video nos amplía este concepto.
     figure.mb-5
       .video
