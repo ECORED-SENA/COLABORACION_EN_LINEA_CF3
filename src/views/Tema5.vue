@@ -24,7 +24,7 @@
                 b ¿qué estrategia a partir de las herramientas y funciones que brinda la red social se debería utilizar para potencializar un negocio o empresa?
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A8.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A8.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 Esta red social brinda la posibilidad de tener dos alternativas a utilizar, las cuales son:
     .row.mb-5.justify-content-center

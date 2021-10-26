@@ -20,7 +20,7 @@
               p.h1.fw-normal.mb-5 ¿Qué es un seguidor en el contexto de las redes sociales? 
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A2.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A2.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     #t_1_1.titulo-segundo(data-aos='fade-right')
       h2 1.1 Tipos de redes sociales
@@ -59,7 +59,7 @@
                 | Según la cantidad de personas que actúen, de cierta manera los elementos de la red se comportan para facilitarle la navegación a esas personas.
               .wrap-player.mb-4
                 audio(controls='')
-                  source(src='../../public/downloads/A3.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A3.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 Es así como cada red puede hacer su aparición en muchos casos de uso, como son:
     .row.mb-3
@@ -195,7 +195,7 @@
               p.h1.fw-normal ¿Cómo han transformado las redes sociales a la sociedad actual? 
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A4.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A4.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
@@ -245,7 +245,7 @@
                 b ¿O es mejor tenerlos parcialmente privados? 
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A5.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A5.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     p.mb-5 La pregunta es determinar, 
       b ¿qué tipo de perfil debería de utilizar, público o privado?

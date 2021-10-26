@@ -202,7 +202,7 @@
               p Pachter (2010), una gurú en cuestiones de educación en los negocios, cree que no, tal como lo narra en The Essentials of Business Etiquette, desde donde propone las 10 reglas de oro para el uso adecuado del email, así:
               .wrap-player
                 audio(controls='')
-                  source(src='../../public/downloads/A6.wav' type='audio/mpeg')
+                  source(src='../../public/downloads/A6.mp3' type='audio/mpeg')
                   |  Your browser does not support the audio tag.
     figure(data-aos="zoom-in-up")
       img(src='@/assets/curso/87.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-xl-block
